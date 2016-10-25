@@ -1,0 +1,5 @@
+Ladders:
+  DefaultLadder:
+    Default: true
+    RequiresRank: false
+    Ranks: A,paidranks.defaultladder.a,1,20.0;B,paidranks.defaultladder.b,2,40.0;C,paidranks.defaultladder.c,3,80.0

@@ -1,0 +1,67 @@
+Ladders:
+  #Default is the ladder that uses /rankup
+  #All other ladders use /rankup <ladder>
+  EpicLadder:
+    #DefaultPermission is not required either now.
+    DefaultPermission: paidranks.ladder.epicladder
+    #RequiredRank is not required.
+    RequiredRank: A
+    Default: true
+    #You can remove this line but if you do
+    #Any rank can rank to this(Could cause downgrading in the rank)
+    #RequiredRank: Default  were removing it for this one to show it works
+    Ranks:
+      A:
+        Price: 50000
+      B:
+        Price: 5000
+      C:
+        Price: 2000
+      D:
+        Price: 4000
+      E:
+        Price: 10000
+      F:
+        Price: 200000
+      G:
+        Price: 400000
+      H:
+        Price: 800000
+      I:
+        Price: 40000
+      J:
+        Price: 20000
+      K:
+        Price: 25000
+      L:
+        Price: 35000
+      M:
+        Price: 5000000
+      N:
+        Price: 7500000
+      O:
+        Price: 18000
+      P:
+        Price: 30000000
+      Q:
+        Price: 75000000
+      R:
+        Price: 10000
+      S:
+        Price: 165000000
+      T:
+        Price: 200000000
+      U:
+        Price: 240000000
+      V:
+        Price: 3200000
+      W:
+        Price: 42000000
+      X:
+        Price: 6000000
+      Y:
+        Price: 8000000
+      Z:
+        Price: 100000000
+      Free:
+        Price: 1500000
