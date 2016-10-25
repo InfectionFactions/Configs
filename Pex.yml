@@ -1,0 +1,223 @@
+groups:
+  default:
+    options:
+      default: true
+    permissions:
+    - -bukkit.command.say
+    - -essentials.say
+    - essentials.warp.list
+    - spawner.canharvest
+    - spawner.silk
+    - spawner.place
+    - modifyworld.*
+    inheritance:
+    - Member
+  Member:
+    permissions:
+    - essentials.warp.*
+    - essentials.kit.Starter
+    - essentials.kits.Starter
+    - essentials.kits.starter
+    - essentials.kits.new
+    - essentials.kits.member
+    - ab.mute.notify
+    - ab.ban.notify
+    - ab.kick.notify
+    - -bukkit.command.say
+    - -essentials.say
+    - spawner.canharvest
+    - spawner.silk
+    - spawner.place
+    - essentials.warps.crates
+    - essentials.help
+    - banknotes.deposit
+    - banknotes.withdraw
+    - ce.ench.*
+    - deluxemenus.guimenucommand.bypassperms
+    - deluxemenus.guimenu.vote
+    - expbank.use.bottle
+    - expbank.use
+    - trading.trade
+    - chestcommands.command.open
+    - chestcommands.open.example.yml
+    - redeemMCMMO.credits
+    - redeemMCMMO.redeem
+    - revolted.factions.stats
+    - revolted.factions.fourms
+    - essentials.warp.pvp
+    - essentials.warp.shop
+    - essentials.warp.spawn
+    - warp.gui
+    - randomteleport.tp
+    - essentials.rules
+    - deluxechat.pm
+    - chatformat.default
+    - essentials.mail.send
+    - essentials.kits.pvp
+    - silkspawners.place.*
+    - essentials.factions.who
+    - essentials.factions.f
+    - essentials.factions.help
+    - essentials.signs.use.free
+    - essentials.signs.use.disposal
+    - essentials.signs.use.sell
+    - essentials.signs.use.buy
+    - silkspawners.silkdrop.*
+    - essentials.home
+    - essentials.sethome
+    - essentials.factions.create
+    - essentials.kits.Member
+    - automessage.receive.regular
+    - essentials.balancetop
+    - essentials.baltop
+    - essentials.money
+    - essentials.balance
+    - essentials.afk
+    - essentials.pay
+    - essentials.warps
+    - essentials.warp
+    - essentials.delhome
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.tpaccept
+    - essentials.tpa
+    - essentials.spawn
+    - essentials.tell
+    - essentials.r
+    - essentials.msg
+    - essentials.mail
+    - essentials.ignore
+    - essentials.helpop
+    - essentials.list
+    - essentials.kit
+    options:
+      prefix: '&7Member &8&l>&7 '
+  Owner:
+    options:
+      prefix: '&c&lOwner &8&l>&c '
+    permissions:
+    - '*'
+  Founder:
+    options:
+      prefix: '&c&lOwner&7/&b&lFounder &8&l>&c '
+    permissions:
+    - '*'
+  Admin:
+    options:
+      prefix: '&4&lAdministrator &8&l>&4&l '
+    permissions:
+    - essentials.*
+    - worldedit.*
+    - worldguard.*
+    - -bukkit.command.op
+    - -bukkit.command.pl
+  Moderator:
+    options:
+      prefix: '&6&lMod &8&l>&6 '
+    permissions:
+    - ab.*
+    - bm.command.ban
+    - bm.command.tempban
+    - bm.command.unban
+    inheritance:
+    - Member
+    - Helper
+  Helper:
+    options:
+      prefix: '&e&lHelper &8&l>&e '
+    permissions:
+    - essentials.chat.url
+    - essentials.url
+    - essentials.mute
+    - essentials.warp.shop
+    - warp.gui.pvp
+    - warp.gui.shop
+    - warp.gui.spawn
+    - essentials.warp.gui.spawn
+    - essentials.warp.gui.pvp
+    - essentials.warp.gui.shop
+    - essentials.warp.spawn
+    - essentials.warp.pvp
+    - chatformat.staff
+    - essentials.fly
+    - bm.commands.mute
+    - bm.commands.kick
+    - bm.commands.tempmute
+    - bm.command.unmute
+    - bm.command.muteip
+    - bm.command.tempmuteip
+    - bm.command.unmuteip
+    - bm.command.warn
+    - bm.command.tempwarn
+    - bm.command.addnote
+    - bm.command.notes
+    - bm.command.notes.online
+    inheritance:
+    - Member
+    - Mystical
+    - Trial
+  Manager:
+    options:
+      prefix: '&b&lManager &8&l> '
+    permissions:
+    - '*'
+  developer:
+    options:
+      prefix: '&c&lDev &8&l>&c '
+    permissions:
+    - '*'
+  builder:
+    worlds:
+      '&8&l>&f&l':
+        options:
+          prefix: '&f&lBuilder'
+    options:
+      prefix: '&f&lBuilder &8&l>&f&l '
+    inheritance:
+    - Moderator
+    permissions:
+    - worldguard.bypass.*
+    - worldguard.*
+    - worldguard>*
+    - worldedit.*
+  youtube:
+    inheritance:
+    - Member
+    options:
+      prefix: '&f&lYou&4&lTube &8&l> '
+    permissions:
+    - essentials.kits.youtube
+    - essentials.help
+    - ce.ench.*
+    - essentials.heal
+    - essentials.back
+    - essentials.feed
+    - essentials.fly
+    worlds:
+      pandamannicholas:
+        permissions: []
+  Trial:
+    permissions:
+    - essentials.helpop.recieve
+    - ab.kick
+    - ab.mute
+    - ab.warn.perm
+    - ab.warns.owb
+    - ab.warns.other
+    - ab.mute.undo
+    - spawner.canharvest
+    - spawner.silk
+    - spawner.place
+    - essentials.warp.list
+    - redeemMCMMO.redeem
+    - chatformat.staff
+    - bm.command.warn
+    - bm.command.tempmute
+    - bm.command.kick
+    options:
+      prefix: '&a&lTrial-Staff &8&l> '
+    inheritance:
+    - Member
+schema-version: 1
+users:
+
