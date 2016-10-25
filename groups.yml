@@ -1,0 +1,710 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  D:
+    default: false
+    permissions:
+    - essentials.warps.D
+    inheritance:
+    - c
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&3D&8]&6'
+      build: false
+      suffix: ''
+  E:
+    default: false
+    permissions:
+    - essentials.warps.E
+    inheritance:
+    - d
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&5E&8]&6'
+      build: false
+      suffix: ''
+  F:
+    default: false
+    permissions:
+    - essentials.warps.F
+    inheritance:
+    - e
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&6F&8]&6'
+      build: false
+      suffix: ''
+  G:
+    default: false
+    permissions:
+    - essentials.warps.G
+    inheritance:
+    - f
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&cG&8]&6'
+      build: false
+      suffix: ''
+  Druglord:
+    default: false
+    permissions:
+    - alphachest.chest
+    - essentials.back
+    - essentials.craft
+    - essentials.enderchest
+    - essentials.feed
+    - essentials.kits.druglord
+    - smelter.smelall
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&b&lDrug&7&llord&8]&b'
+      build: false
+      suffix: ''
+  A:
+    default: true
+    permissions:
+    - -bukkit.command.help
+    - auction.bid
+    - auction.start
+    - ChestShop.shop.buy
+    - ChestShop.shop.create.*
+    - ChestShop.shop.sell
+    - drugs.use
+    - essentials.afk
+    - essentials.bal
+    - essentials.balance
+    - essentials.balance.top
+    - essentials.balancetop
+    - essentials.build
+    - essentials.ignore
+    - essentials.kit
+    - essentials.kits.daily
+    - essentials.kits.food
+    - essentials.kits.starter
+    - essentials.msg
+    - essentials.pay
+    - essentials.signs.repair
+    - essentials.signs.use.buy
+    - essentials.signs.use.free
+    - essentials.signs.use.kit
+    - essentials.signs.use.kits
+    - essentials.signs.use.repair
+    - essentials.signs.use.sell
+    - essentials.signs.use.warp
+    - essentials.spawn
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warp.Mp
+    - essentials.warps.A
+    - essentials.warps.crate
+    - essentials.warps.crates
+    - essentials.warps.donate
+    - essentials.warps.farm
+    - essentials.warps.furnace
+    - essentials.warps.info
+    - essentials.warps.mp
+    - essentials.warps.parkourmine
+    - essentials.warps.plots
+    - essentials.warps.pvp
+    - essentials.warps.pvpmine
+    - essentials.warps.rules
+    - essentials.warps.staff
+    - essentials.warps.use.donate
+    - essentials.warps.use.info
+    - essentials.warps.use.Warps
+    - essentials.warps.warps
+    - esssentials.signs.use.sell
+    - gangs.create
+    - gangs.disband
+    - gangs.info
+    - gangs.invite
+    - gangs.join
+    - gangs.kick
+    - gangs.leave
+    - gangs.promote
+    - gangs.uninvite
+    - gangs.user
+    - gemstoblock.*
+    - gemstoblocks.*
+    - gemstoblocks.block
+    - paidranks.command.ru.rankup
+    - paidranks.ladder.epicladder
+    - plotme.admin.home.other
+    - plotme.limit.1
+    - plotme.use.add
+    - plotme.use.auto
+    - plotme.use.claim
+    - plotme.use.clear
+    - plotme.use.deny
+    - plotme.use.dispose
+    - plotme.use.home
+    - plotme.use.remove
+    - plotme.use.undeny
+    - prisonrankup.rankup
+    - serversigns.use.*
+    - signurls.use
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&aA&8]&6'
+      build: false
+      suffix: ''
+  B:
+    default: false
+    permissions:
+    - essentials.warps.B
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&dB&8]&6'
+      build: false
+      suffix: ''
+  C:
+    default: false
+    permissions:
+    - essentials.warps.C
+    inheritance:
+    - b
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&eC&8]&6'
+      build: false
+      suffix: ''
+  L:
+    default: false
+    permissions:
+    - essentials.warps.L
+    inheritance:
+    - k
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&fL&8]&6'
+      build: false
+      suffix: ''
+  M:
+    default: false
+    permissions:
+    - essentials.warps.M
+    inheritance:
+    - l
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&bM&8]&6'
+      build: false
+      suffix: ''
+  N:
+    default: false
+    permissions:
+    - drugs.use
+    - essentials.warps.N
+    inheritance:
+    - m
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&dN&8]&6'
+      build: false
+      suffix: ''
+  Donor:
+    default: false
+    permissions:
+    - alphachest.chest
+    - essentials.kits.donor
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&d&lDonor&8]&7'
+      build: false
+      suffix: ''
+  O:
+    default: false
+    permissions:
+    - essentials.warps.O
+    inheritance:
+    - n
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&bO&8]&6'
+      build: false
+      suffix: ''
+  Druggie:
+    default: false
+    permissions:
+    - alphachest.chest
+    - essentials.kits.druggie
+    - smelter.smelall
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&c&lDruggie&8]&d'
+      build: false
+      suffix: ''
+  H:
+    default: false
+    permissions:
+    - essentials.warps.H
+    inheritance:
+    - g
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&9H&8]&6'
+      build: false
+      suffix: ''
+  Boss:
+    default: false
+    permissions:
+    - alphachest.chest
+    - essentials.back
+    - essentials.feed
+    - essentials.kits.boss
+    - smelter.smelall
+    - smelter.smelt
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&5&lBoss&8]&5'
+      build: false
+      suffix: ''
+  I:
+    default: false
+    permissions:
+    - essentials.warps.I
+    inheritance:
+    - h
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&2I&8]&6'
+      build: false
+      suffix: ''
+  Admin:
+    default: false
+    permissions:
+    - essentials.ban
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.spy
+    - essentials.fly
+    - essentials.gamemode
+    - essentials.kick
+    - essentials.mute
+    - essentials.speed
+    inheritance:
+    - moderator
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&c&lAdmin&8&l]&c'
+      build: false
+      suffix: ''
+  Free:
+    default: false
+    permissions:
+    - essentials.warps.free
+    inheritance:
+    - z
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&7&k&lI&a&lFree&7&k&lI&8&l]&a'
+      build: false
+      suffix: ''
+  J:
+    default: false
+    permissions:
+    - essentials.warps.J
+    inheritance:
+    - i
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&1J&8]&6'
+      build: false
+      suffix: ''
+  K:
+    default: false
+    permissions:
+    - essentials.warps.K
+    inheritance:
+    - j
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&4K&8]&6'
+      build: false
+      suffix: ''
+  Gangster:
+    default: false
+    permissions:
+    - alphachest.chest
+    - essentials.craft
+    - essentials.kits.gangster
+    - smelter.smelall
+    - smelter.smelt
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&3&lGangster&8]&3'
+      build: false
+      suffix: ''
+  U:
+    default: false
+    permissions:
+    - essentials.warps.U
+    inheritance:
+    - t
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&eU&8]&6'
+      build: false
+      suffix: ''
+  T:
+    default: false
+    permissions:
+    - essentials.warps.T
+    inheritance:
+    - s
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&5T&8]&6'
+      build: false
+      suffix: ''
+  W:
+    default: false
+    permissions:
+    - essentials.warps.W
+    inheritance:
+    - v
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&1W&8]&6'
+      build: false
+      suffix: ''
+  V:
+    default: false
+    permissions:
+    - essentials.warps.V
+    inheritance:
+    - u
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&fV&8]&6'
+      build: false
+      suffix: ''
+  Imprisoned:
+    default: false
+    permissions:
+    - alphachest.chest
+    - essentials.back
+    - essentials.craft
+    - essentials.enderchest
+    - essentials.kits.imprisoned
+    - essentials.me
+    - smelter.smelall
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&7&l+&a&lImprisoned&7&l+&8]&a'
+      build: false
+      suffix: ''
+  Q:
+    default: false
+    permissions:
+    - essentials.warps.Q
+    inheritance:
+    - p
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&aQ&8]&6'
+      build: false
+      suffix: ''
+  P:
+    default: false
+    permissions:
+    - essentials.warps.P
+    inheritance:
+    - o
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&7P&8]&6'
+      build: false
+      suffix: ''
+  S:
+    default: false
+    permissions:
+    - essentials.warps.S
+    inheritance:
+    - r
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&cS&8]&6'
+      build: false
+      suffix: ''
+  R:
+    default: false
+    permissions:
+    - essentials.warps.R
+    inheritance:
+    - q
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&bR&8]&6'
+      build: false
+      suffix: ''
+  Y:
+    default: false
+    permissions:
+    - essentials.warps.Y
+    inheritance:
+    - x
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&b&lY&8&l]&b'
+      build: false
+      suffix: ''
+  X:
+    default: false
+    permissions:
+    - essentials.warps.X
+    inheritance:
+    - w
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&5&lX&8&l]&b'
+      build: false
+      suffix: ''
+  Z:
+    default: false
+    permissions:
+    - essentials.warps.Z
+    inheritance:
+    - y
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&4&lZ&8&l]&b'
+      build: false
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - essentials.*
+    - essentials.ban
+    - essentials.chat.color
+    - essentials.chat.format
+    - essentials.chat.spy
+    - essentials.fly
+    - essentials.gamemode
+    - essentials.kick
+    - essentials.mute
+    inheritance:
+    - admin
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&a&lOwner&8&l]&c'
+      build: false
+      suffix: ''
+  Youtuber:
+    default: false
+    permissions:
+    - essentials.broadcast
+    - essentials.feed
+    - essentials.fly
+    inheritance:
+    - druggie
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&f&lYou&4&lTube&8&l]&c'
+      build: false
+      suffix: ''
+  Thug:
+    default: false
+    permissions:
+    - alphachest.chest
+    - essentials.kits.thug
+    - smelter.smelall
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8[&6&lThug&8]&6'
+      build: false
+      suffix: ''
+  Head-Moderator:
+    default: false
+    permissions:
+    - essentials.ban
+    - essentials.fly
+    - essentials.kick
+    - essentials.mute
+    - essentials.tempban
+    inheritance:
+    - moderator
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&e&lHead-Mod&8&l]&c'
+      build: false
+      suffix: ''
+  Moderator:
+    default: false
+    permissions:
+    - essentials.chat.color
+    - essentials.fly
+    - essentials.god
+    - essentials.invsee
+    - essentials.kick
+    - essentials.mute
+    - essentials.teleport.timer.bypass
+    - essentials.tempban
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tphere
+    - essentials.unban
+    inheritance:
+    - helper
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&6&lModerator&8&l]&c'
+      build: false
+      suffix: ''
+  Helper:
+    default: false
+    permissions:
+    - essentials.kick
+    - essentials.mute
+    inheritance:
+    - a
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      prefix: '&8&l[&9&lHelper&8&l]&c'
+      build: false
+      suffix: ''
