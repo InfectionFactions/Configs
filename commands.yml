@@ -1,0 +1,158 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&aVexuh core &8&l| &aCommands'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'help; commands; cmd; command; vexuh'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+1-5:
+  NAME: '&aExperience'
+  LORE:
+    - '&7This is the &a/experience &7command.'
+    - '&7Click to check your balance'
+  ID: 399
+  POSITION-X: 2
+  POSITION-Y: 2
+1-25:
+  NAME: '&aAutomatically Sell'
+  LORE:
+    - '&7Click to enable your &aAutoSell &7mode'
+    - '&7If it disables, just click again.'
+  ID: diamond
+  POSITION-X: 3
+  POSITION-Y: 2
+glass1:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 1
+  POSITION-Y: 1
+glass2:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 2
+  POSITION-Y: 1
+glass3:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 3
+  POSITION-Y: 1
+glass4:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 4
+  POSITION-Y: 1
+glass5:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 5
+  POSITION-Y: 1
+glass6:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 6
+  POSITION-Y: 1
+glass7:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 7
+  POSITION-Y: 1
+glass8:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 8
+  POSITION-Y: 1
+glass9:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 9
+  POSITION-Y: 1
+glass11:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 1
+  POSITION-Y: 4
+glass12:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 2
+  POSITION-Y: 4
+glass13:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 3
+  POSITION-Y: 4
+glass14:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 4
+  POSITION-Y: 4
+glass15:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 5
+  POSITION-Y: 4
+glass16:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 6
+  POSITION-Y: 4
+glass17:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 7
+  POSITION-Y: 4
+glass18:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 8
+  POSITION-Y: 4
+glass19:
+  NAME: '&a'
+  ID: '160:5, 1'
+  POSITION-X: 9
+  POSITION-Y: 4
+glass111:
+  NAME: '&a'
+  ID: '160:7, 1'
+  POSITION-X: 9
+  POSITION-Y: 2
+glass101:
+  NAME: '&a'
+  ID: '160:7, 1'
+  POSITION-X: 1
+  POSITION-Y: 2
