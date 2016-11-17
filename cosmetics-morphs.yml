@@ -1,0 +1,263 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Morphs'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: click'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+  
+  
+main-Menu:
+  COMMAND: 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&eMain Menu'
+  ID: arrow
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+
+bat:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph bat {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lBat'
+  LORE:
+  - ''
+  - '&eDouble Jump > &7Flap'
+  ID: 414
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.bat'
+  xVIEW-PERMISSION: 'cosmetics.morphs.bat'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+elderguardian:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph elderguardian {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lElder Guardian'
+  LORE:
+  - ''
+  - '&eLeft Click > &7Laser'
+  - ''
+  - '&eExclusive to &e&lKING &erank!'
+  ID: 409
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.elderguardian'
+  xVIEW-PERMISSION: 'cosmetics.morphs.elderguardian'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+blaze:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph blaze {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lBlaze'
+  LORE:
+  - ''
+  - '&eSneak > &7Fly'
+  - ''
+  - '&eExclusive to &d&lELITE &erank!'
+  ID: 377
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.blaze'
+  xVIEW-PERMISSION: 'cosmetics.morphs.blaze'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+chicken:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph chicken {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lChicken'
+  LORE:
+  - ''
+  - '&eSneak > &7Lay Eggs'
+  ID: 344
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.chicken'
+  xVIEW-PERMISSION: 'cosmetics.morphs.chicken'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+pig:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph pig {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lPig'
+  LORE:
+  - ''
+  - '&eHit Players > &7Push'
+  ID: 319
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.pig'
+  xVIEW-PERMISSION: 'cosmetics.morphs.pig'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+enderman:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph enderman {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lEnderman'
+  LORE:
+  - ''
+  - '&eDouble Jump > &7Teleport'
+  ID: 368
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.enderman'
+  xVIEW-PERMISSION: 'cosmetics.morphs.enderman'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+slime:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph slime {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSlime'
+  LORE:
+  - ''
+  - '&eSneak > &7Bounce'
+  ID: 341
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.slime'
+  xVIEW-PERMISSION: 'cosmetics.morphs.slime'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+creeper:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph creeper {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lCreeper'
+  LORE:
+  - ''
+  - '&eSneak > &7Explode'
+  ID: 289
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.creeper'
+  xVIEW-PERMISSION: 'cosmetics.morphs.creeper'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+witherskeleton:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph witherskeleton {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lWither Skeleton'
+  LORE:
+  - ''
+  - '&eSneak > &7Bone Bomb'
+  - ''
+  - '&eExclusive to &b&lLORD &erank!'
+  ID: 263
+  DATA-VALUE: 1
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.witherskeleton'
+  xVIEW-PERMISSION: 'cosmetics.morphs.witherskeleton'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+snowman:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle morph snownman {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSnowman'
+  LORE:
+  - ''
+  - '&eLeft Click > &7Snowball'
+  ID: 332
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.morphs.snowman'
+  xVIEW-PERMISSION: 'cosmetics.morphs.snowman'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+selfmorph:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc selfview'
+  - 'op: disvs'
+  NAME: '&a&l3rd Person Morph'
+  LORE:
+  - ''
+  - '&7View yourself morphed'
+  ID: 381
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true

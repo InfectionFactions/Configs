@@ -1,0 +1,188 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Pets'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: click'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+  
+  
+main-Menu:
+  COMMAND: 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&eMain Menu'
+  ID: arrow
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+
+piggy:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle pet piggy {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lPiggy'
+  ID: 383
+  DATA-VALUE: 90
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.pets.piggy'
+  xVIEW-PERMISSION: 'cosmetics.pets.piggy'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+sheep:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle pet sheep {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSheep'
+  ID: 383
+  DATA-VALUE: 91
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.pets.sheep'
+  xVIEW-PERMISSION: 'cosmetics.pets.sheep'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+easterbunny:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle pet easterbunny {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lEaster Bunny'
+  LORE:
+  - ''
+  - '&eExclusive to &e&lKING &erank!'
+  ID: 383
+  DATA-VALUE: 101
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.pets.easterbunny'
+  xVIEW-PERMISSION: 'cosmetics.pets.easterbunny'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+kitty:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle pet kitty {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lKitty'
+  ID: 383
+  DATA-VALUE: 98
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.pets.kitty'
+  xVIEW-PERMISSION: 'cosmetics.pets.kitty'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+dog:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle pet dog {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lDog'
+  ID: 383
+  DATA-VALUE: 95
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.pets.dog'
+  xVIEW-PERMISSION: 'cosmetics.pets.dog'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+chick:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle pet chick {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lChick'
+  ID: 383
+  DATA-VALUE: 93
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.pets.chich'
+  xVIEW-PERMISSION: 'cosmetics.pets.chick'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+pumpling:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle pet pumpling {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lPumpling'
+  LORE:
+  - ''
+  - '&eExclusive to &b&lLORD &erank!'
+  ID: 383
+  DATA-VALUE: 61
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.pets.pumpling'
+  xVIEW-PERMISSION: 'cosmetics.pets.pumpling'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+christmaself:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle pet christmaself {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lChristmas Elf'
+  LORE:
+  - ''
+  - '&eExclusive to &d&lELITE &erank!'
+  ID: 383
+  DATA-VALUE: 120
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.pets.christmaself'
+  xVIEW-PERMISSION: 'cosmetics.pets.christmaself'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'

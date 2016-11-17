@@ -1,0 +1,268 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Mounts'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: click'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+  
+  
+main-Menu:
+  COMMAND: 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&eMain Menu'
+  ID: arrow
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+
+druggedhorse:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount druggedhorse {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lDrugged Horse'
+  ID: 353
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.druggedhorse'
+  xVIEW-PERMISSION: 'cosmetics.mounts.druggedhorse'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+walkingdead:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount walkingdead {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lWalking Dead'
+  ID: 367
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.walkingdead'
+  xVIEW-PERMISSION: 'cosmetics.mounts.walkingdead'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+mountoffire:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount mountoffire {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lMount Of Fire'
+  ID: 327
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.mountoffire'
+  xVIEW-PERMISSION: 'cosmetics.mounts.mountoffire'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+mountofwater:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount mountofwater {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lMount Of Water'
+  ID: 326
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.mountofwater'
+  xVIEW-PERMISSION: 'cosmetics.mounts.mountofwater'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+ecologisthorse:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount ecologisthorse {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lEcologist Horse'
+  LORE:
+  - ''
+  - '&eExclusive to &d&lELITE &erank!'
+  ID: 31
+  DATA-VALUE: 2
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.ecologisthorse'
+  xVIEW-PERMISSION: 'cosmetics.mounts.ecologisthorse'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+snake:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount snake {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSnake'
+  ID: 369
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.snake'
+  xVIEW-PERMISSION: 'cosmetics.mounts.snake'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+nyansheep:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount nyansheep {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lNyan Sheep'
+  ID: 351
+  DATA-VALUE: 1
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.nyansheep'
+  xVIEW-PERMISSION: 'cosmetics.mounts.nyansheep'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+dragon:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount dragon {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lDragon'
+  LORE:
+  - ''
+  - '&eExclusive to &b&lLORD &erank!'
+  ID: 122
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.dragon'
+  xVIEW-PERMISSION: 'cosmetics.mounts.dragon'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+skysquid:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount skysquid {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSky Squid'
+  ID: 351
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.skysquid'
+  xVIEW-PERMISSION: 'cosmetics.mounts.skysquid'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+slime:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount slime {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSlime'
+  ID: 341
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.slime'
+  xVIEW-PERMISSION: 'cosmetics.mounts.slime'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+hypecart:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount hypecart {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lHype Cart'
+  ID: 328
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.hypecart'
+  xVIEW-PERMISSION: 'cosmetics.mounts.hypecart'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+rudolph:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount rudolph {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lRudolph'
+  ID: 396
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.rudolph'
+  xVIEW-PERMISSION: 'cosmetics.mounts.rudolph'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+flyingship:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle mount flyingship {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lFlying Ship'
+  LORE:
+  - ''
+  - '&eExclusive to &e&lKING &erank!'
+  ID: 333
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.mounts.flyingship'
+  xVIEW-PERMISSION: 'cosmetics.mounts.flyingship'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'

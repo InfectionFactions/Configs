@@ -1,0 +1,558 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+  # name - appears as the title - REQUIRED
+  name: '&aVexuh Core &8&l| &aStaff'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'administration'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: portal'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+omer919:
+  SKULL-OWNER: 'firedawg'
+  KEEP-OPEN: true
+  NAME: '&afiredawg'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cManager&8)'
+  - '&7Realm &8- (&cGlobal&8)'
+  - '&7Country &8- (&cUnited States&8)'
+  - '&7Age &8- (&c21&8)'
+  - '&7Sex &8- (&cMale&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 5
+  POSITION-Y: 2
+
+dev1:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 2
+  POSITION-Y: 3
+
+dev2:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 3
+  POSITION-Y: 3
+dev3:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 4
+  POSITION-Y: 3
+dev4:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 5
+  POSITION-Y: 3
+dev5:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 6
+  POSITION-Y: 3
+dev6:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 7
+  POSITION-Y: 3
+dev7:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 8
+  POSITION-Y: 3
+
+dev8:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 2
+  POSITION-Y: 4
+
+dev9:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 3
+  POSITION-Y: 4
+
+dev10:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 4
+  POSITION-Y: 4
+
+dev11:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 5
+  POSITION-Y: 4
+
+dev12:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 6
+  POSITION-Y: 4
+
+dev13:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 7
+  POSITION-Y: 4
+
+dev14:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 8
+  POSITION-Y: 4
+
+
+dev15:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 2
+  POSITION-Y: 5
+
+dev16:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 3
+  POSITION-Y: 5
+
+dev17:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 4
+  POSITION-Y: 5
+
+dev18:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 5
+  POSITION-Y: 5
+
+dev19:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 6
+  POSITION-Y: 5
+
+dev20:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 7
+  POSITION-Y: 5
+
+dev21:
+  SKULL-OWNER: 'MHF_QUESTION'
+  KEEP-OPEN: true
+  NAME: '&aUnkown'
+  LORE:
+  - '&e'
+  - '&7Rank &8- (&cAdministrator&8)'
+  - '&7Realm &8- (&cUnkown&8)'
+  - '&7Country &8- (&cUnkown&8)'
+  - '&7Age &8- (&cUnkown&8)'
+  - '&7Sex &8- (&cUnkown&8)'
+  ID: 'skull:3, 1'
+  POSITION-X: 8
+  POSITION-Y: 5
+
+2:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 2
+  POSITION-Y: 1
+
+3:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 3
+  POSITION-Y: 1
+
+4:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 4
+  POSITION-Y: 1
+
+5:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 5
+  POSITION-Y: 1
+
+1:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 1
+
+6:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 6
+  POSITION-Y: 1
+
+7:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 7
+  POSITION-Y: 1
+
+8:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 8
+  POSITION-Y: 1
+
+9:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+12:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 2
+  POSITION-Y: 6
+
+
+14:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 4
+  POSITION-Y: 6
+
+11:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 6
+
+16:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 6
+  POSITION-Y: 6
+
+18:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 8
+  POSITION-Y: 6
+
+19:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 6
+
+21:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 2
+
+22:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 3
+
+23:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 4
+
+24:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 4
+
+25:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 3
+
+26:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 2
+
+exit:
+  NAME: '&a'
+  LORE:
+    - '     &cClose Menu     '
+    - '&c'
+  ID: 166
+  POSITION-X: 5
+  POSITION-Y: 6
+
+store:
+  KEEP-OPEN: true
+  COMMAND: 'tell: &8[&aVexuh Core&8] &7Visit our store at &ahttp://store.vexuh.com'
+  NAME: '&a'
+  LORE:
+    - '     &cVisit Store     '
+    - '&c'
+  ID: book
+  POSITION-X: 7
+  POSITION-Y: 6
+
+website:
+  COMMAND: 'tell: &8[&aVexuh Core&8] &7Visit our website at &ahttp://forum.vexuh.com'
+  NAME: '&a'
+  LORE:
+    - '     &cVisit Website     '
+    - '&c'
+  ID: book
+  POSITION-X: 3
+  POSITION-Y: 6
+
+26121:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 5
+
+2611:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 5

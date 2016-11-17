@@ -1,0 +1,398 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Gadgets'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: click'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+  
+  
+main-Menu:
+  COMMAND: 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&eMain Menu'
+  ID: arrow
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+
+batblaster:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget batblaster {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lBat Blaster'
+  ID: 417
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+chickenator:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget chickenator {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lChickenator'
+  ID: 366
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+  
+colorbomb:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget colorbomb {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lColor Bomb'
+  ID: 35
+  DATA-VALUE: 3
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+  
+discoball:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget discoball {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lDisco Ball'
+  LORE:
+  - ''
+  - '&eExclusive to &b&lLORD &erank!'
+  ID: 138
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+  
+etheralpearls:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget etherealpearl {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lEthereal Pearls'
+  ID: 368
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+  
+fleshhook:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget fleshhook {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lFlesh Hook'
+  ID: 131
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+  
+melonthrower:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget melonthrower {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lMelon Thrower'
+  ID: 103
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+blizzardblaster:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget blizzardblaster {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lBlizzard Blaster'
+  ID: 174
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+portalgun:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget portalgun {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lPortal Gun'
+  LORE:
+  - ''
+  - '&eExclusive to &d&lELITE &erank!'
+  ID: 404
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+explosivesheep:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget explosivesheep {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lExplosive Sheep'
+  ID: 359
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+throshammer:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget thorhammer {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lThors Hammer'
+  ID: 258
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+antigravity:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget antigravity {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lAnti Gravity'
+  LORE:
+  - ''
+  - '&eExclusive to &e&lKING &erank!'
+  ID: 381
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+smashdown:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget smashdown {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSmash Down'
+  ID: 402
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+rocket:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget rocket {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lRocket'
+  ID: 401
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+tsunami:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget tsunami {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lTsunami'
+  ID: 326
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+tnt:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget tnt {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lTNT'
+  ID: 46
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+fungun:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget fungun {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lFun Gun'
+  ID: 369
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+parachute:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget parachute {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lParachute'
+  ID: 420
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+quakegun:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget quakegun {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lQuake Gun'
+  ID: 293
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+ghostparty:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget ghostparty {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lGhost Party'
+  ID: 397
+  DATA-VALUE: 0
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+  
+firework:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget firework {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lFirework'
+  ID: 401
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+  
+christmastree:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget christmastree {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lChristmas Tree'
+  ID: 31
+  DATA-VALUE: 2
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+  
+snowball:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget snowball {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSnowball'
+  ID: 332
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+  
+partypopper:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget partypopper {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lParty Popper'
+  ID: 396
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+  
+trampoline:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget trampoline {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lTrampoline'
+  ID: 35
+  DATA-VALUE: 11
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  
+  
+paintballgun:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'console: uc toggle gadget paintballgun {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lPaintball Gun'
+  ID: 419
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true

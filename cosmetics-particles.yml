@@ -1,0 +1,301 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Particles'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: click'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+  
+  
+main-Menu:
+  COMMAND: 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&eMain Menu'
+  ID: arrow
+  POSITION-X: 5
+  POSITION-Y: 6
+  KEEP-OPEN: true
+
+
+raincloud:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect raincloud {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lRain Cloud'
+  ID: 351
+  DATA-VALUE: 4
+  POSITION-X: 2
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.raincloud'
+  xVIEW-PERMISSION: 'cosmetics.particles.raincloud'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+snowcloud:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect snowcloud {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSnow Cloud'
+  ID: 351
+  DATA-VALUE: 7
+  POSITION-X: 2
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.snowcloud'
+  xVIEW-PERMISSION: 'cosmetics.particles.snowcloud'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+bloodhelix:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect bloodhelix {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lBlood Helix'
+  ID: 331
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.bloodhelix'
+  xVIEW-PERMISSION: 'cosmetics.particles.bloodhelix'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+frostlord:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect frostlord {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lFrost Lord'
+  LORE:
+  - ''
+  - '&eExclusive to &b&lLORD &erank!'
+  ID: 332
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.frostlord'
+  xVIEW-PERMISSION: 'cosmetics.particles.frostlord'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+flamerings:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect flamerings {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lFlame Rings'
+  ID: 378
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.flamerings'
+  xVIEW-PERMISSION: 'cosmetics.particles.flamerings'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+inlove:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect inlove {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lIn Love'
+  ID: 260
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.inlove'
+  xVIEW-PERMISSION: 'cosmetics.particles.inlove'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+greensparks:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect greensparks {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lGreen Sparks'
+  LORE:
+  - ''
+  - '&eExclusive to &e&lKING &erank!'
+  ID: 388
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.greensparks'
+  xVIEW-PERMISSION: 'cosmetics.particles.greensparks'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+frozenwalk:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect frozenwalk {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lFrozen Walk'
+  ID: 353
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.frozenwalk'
+  xVIEW-PERMISSION: 'cosmetics.particles.frozenwalk'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+music:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect music {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lMusic'
+  ID: 2265
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.music'
+  xVIEW-PERMISSION: 'cosmetics.particles.music'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+enchanted:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect enchanted {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lEnchanted'
+  ID: 340
+  DATA-VALUE: 0
+  POSITION-X: 8
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.enchanted'
+  xVIEW-PERMISSION: 'cosmetics.particles.enchanted'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+inferno:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect inferno {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lInferno'
+  ID: 351
+  DATA-VALUE: 14
+  POSITION-X: 2
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.inferno'
+  xVIEW-PERMISSION: 'cosmetics.particles.inferno'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+angelwings:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect angelwings {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lAngel Wings'
+  ID: 288
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.angelwings'
+  xVIEW-PERMISSION: 'cosmetics.particles.angelwings'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+superhero:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect superhero {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSuper Hero'
+  ID: 348
+  DATA-VALUE: 0
+  POSITION-X: 4
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.superhero'
+  xVIEW-PERMISSION: 'cosmetics.particles.superhero'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+santahat:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect santahat {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lSanta Hat'
+  ID: 298
+  COLOR: 255,0,0
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.santahat'
+  xVIEW-PERMISSION: 'cosmetics.particles.santahat'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'
+  
+  
+flamefairy:
+  COMMAND:
+  - 'console: execute {player} ~ ~ ~ /playsound random.orb {player} ~ ~ ~ 1000000'
+  - 'op: uc toggle particleeffect flamefairy {player}'
+  - 'console: cc open cosmetics-main.yml {player}'
+  NAME: '&a&lFlame Fairy'
+  LORE:
+  - ''
+  - '&eExclusive to &d&lELITE &erank!'
+  ID: 396
+  DATA-VALUE: 0
+  POSITION-X: 6
+  POSITION-Y: 3
+  KEEP-OPEN: true
+  PERMISSION: 'cosmetics.particles.flamefairy'
+  xVIEW-PERMISSION: 'cosmetics.particles.flamefairy'
+  PERMISSION-MESSAGE: '&7[&aCosmetics&7] &cYou have not unlocked this yet'

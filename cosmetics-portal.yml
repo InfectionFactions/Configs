@@ -1,0 +1,294 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&aVexuh Core &8&l| &aRealms'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'cosmetics'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: portal'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: wool:1
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Particles:
+  KEEP-OPEN: true
+  COMMAND: 'cosmetics-particles'
+  NAME: '&a&lPARTICLES'
+  ID: blaze_powder
+  POSITION-X: 3
+  POSITION-Y: 3
+
+Sky:
+  KEEP-OPEN: true
+  COMMAND: 'server: factions'
+  NAME: '&e&lFACTION REALM'
+  LORE:
+    - ''
+    - '&7&oClick to connect to our &e&oFaction Realm'
+    - '&7&oBuild your base and fight off enemies'
+    - '&e&oor become the ultimate raider and bomb others'
+  ID: diamond_sword
+  POSITION-X: 4
+  POSITION-Y: 4
+
+Premium:
+  KEEP-OPEN: true
+  COMMAND: 'server: kitpvp'
+  NAME: '&d&lKITPVP REALM'
+  LORE:
+    - ''
+    - '&7&oClick to connect to our &d&oKitPVP Realm'
+    - '&7&oKill other conquerers and become the best'
+    - '&d&osword wielder of all time'
+  ID: diamond_chestplate
+  POSITION-X: 7
+  POSITION-Y: 3
+
+Arcader:
+  KEEP-OPEN: true
+  COMMAND: 'server: csurvival'
+  NAME: '&b&lSURVIVAL REALM'
+  LORE:
+    - ''
+    - '&7&oClick to connect to our &b&oClassic Survival Realm'
+    - '&7&oSurvive the treturous nights and become the ultimate'
+    - '&b&oSurvivalist anyone has ever witnessed!'
+  ID: bow
+  POSITION-X: 4
+  POSITION-Y: 2
+
+Pixelmon:
+  KEEP-OPEN: true
+  COMMAND: 'server: gta'
+  NAME: '&c&lGTA REALM'
+  LORE:
+    - ''
+    - '&7&oClick to connect to our &c&oGTA Realm'
+    - '&7&oShoot down them enemies but DONT get locked up'
+    - '&c&oWho will survive the longest...'
+    - '&c&o'
+    - '&c&oWarning, this realm requires a texture pack'
+  ID: flintandsteel
+  POSITION-X: 6
+  POSITION-Y: 2
+
+FFA:
+  KEEP-OPEN: true
+  COMMAND: 'server: ffa'
+  NAME: '&3&lFFA REALM'
+  LORE:
+    - ''
+    - '&7&oClick to connect to our &3&oFFA Realm'
+    - '&7&oOnly the best warriors conquer this realm'
+    - '&3&oare you one of them?'
+  ID: iron_sword
+  POSITION-X: 6
+  POSITION-Y: 4
+2:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 2
+  POSITION-Y: 1
+
+3:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 3
+  POSITION-Y: 1
+
+4:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 4
+  POSITION-Y: 1
+
+5:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 5
+  POSITION-Y: 1
+
+1:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 1
+
+6:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 6
+  POSITION-Y: 1
+
+7:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 7
+  POSITION-Y: 1
+
+8:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 8
+  POSITION-Y: 1
+
+9:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 1
+
+
+12:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 2
+  POSITION-Y: 5
+
+
+14:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 4
+  POSITION-Y: 5
+
+11:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 5
+
+16:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 6
+  POSITION-Y: 5
+
+18:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 8
+  POSITION-Y: 5
+
+19:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 5
+
+21:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 2
+
+22:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 3
+
+23:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 9
+  POSITION-Y: 4
+
+24:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 4
+
+25:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 3
+
+26:
+  KEEP-OPEN: true
+  NAME: '&5'
+  ID: '160:10, 1'
+  POSITION-X: 1
+  POSITION-Y: 2
+
+exit:
+  NAME: '&a'
+  LORE:
+    - '     &cClose Menu     '
+    - '&c'
+  ID: 166
+  POSITION-X: 5
+  POSITION-Y: 5
+
+store:
+  KEEP-OPEN: true
+  COMMAND: 'donate'
+  NAME: '&a'
+  LORE:
+    - '     &cVisit Store     '
+    - '&c'
+  ID: book
+  POSITION-X: 7
+  POSITION-Y: 5
+
+website:
+  COMMAND: 'tell: &8[&aVexuh Core&8] &7Visit our website at &ahttp://forum.vexuh.com'
+  NAME: '&a'
+  LORE:
+    - '     &cVisit Website     '
+    - '&c'
+  ID: book
+  POSITION-X: 3
+  POSITION-Y: 5

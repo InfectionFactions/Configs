@@ -1,0 +1,183 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Cosmetics'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 6
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'cosmetics; cosmetic'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: click'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 
+    left-click: false
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+  
+  
+
+
+particles:
+  COMMAND: 'console: cc open cosmetics-particles.yml {player}'
+  NAME: '&a&lParticles'
+  ID: 377
+  POSITION-X: 1
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+toggleparticles:
+  COMMAND: 'console: uc clear {player} particleeffects; console: execute {player} ~ ~ ~ /playsound random.click {player} ~ ~ ~ 1000000'
+  NAME: '&eToggle Particles'
+  ID: 351
+  DATA-VALUE: 8
+  POSITION-X: 1
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+pets:
+  COMMAND: 'console: cc open cosmetics-pets.yml {player}'
+  NAME: '&a&lPets'
+  ID: 352
+  POSITION-X: 9
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+  
+togglepets:
+  COMMAND: 'console: uc clear {player} pets; console: execute {player} ~ ~ ~ /playsound random.click {player} ~ ~ ~ 1000000'
+  NAME: '&eToggle Pets'
+  ID: 351
+  DATA-VALUE: 8
+  POSITION-X: 9
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+mounts:
+  COMMAND: 'console: cc open cosmetics-mounts.yml {player}'
+  NAME: '&a&lMounts'
+  ID: 329
+  POSITION-X: 7
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+  
+togglemounts:
+  COMMAND: 'console: uc clear {player} mounts; console: execute {player} ~ ~ ~ /playsound random.click {player} ~ ~ ~ 1000000'
+  NAME: '&eToggle Mounts'
+  ID: 351
+  DATA-VALUE: 8
+  POSITION-X: 7
+  POSITION-Y: 2
+  KEEP-OPEN: true
+
+  
+morphs:
+  COMMAND: 'console: cc open cosmetics-morphs.yml {player}'
+  NAME: '&a&lMorphs'
+  ID: 397
+  DATA-VALUE: 4
+  POSITION-X: 3
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+  
+togglemorphs:
+  COMMAND: 'console: uc clear {player} morphs; console: execute {player} ~ ~ ~ /playsound random.click {player} ~ ~ ~ 1000000'
+  NAME: '&eToggle Morphs'
+  ID: 351
+  DATA-VALUE: 8
+  POSITION-X: 3
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+suits:
+  COMMAND: 'console: cc open cosmetics-suits.yml {player}'
+  NAME: '&a&lSuits'
+  ID: 315
+  DATA-VALUE: 0
+  POSITION-X: 5
+  POSITION-Y: 1
+  KEEP-OPEN: true
+  
+  
+togglesuits:
+  COMMAND: 'console: uc clear {player} suit; console: execute {player} ~ ~ ~ /playsound random.click {player} ~ ~ ~ 1000000'
+  NAME: '&eToggle Suits'
+  ID: 351
+  DATA-VALUE: 8
+  POSITION-X: 5
+  POSITION-Y: 2
+  KEEP-OPEN: true
+  
+  
+gadgets:
+  COMMAND: 'console: cc open cosmetics-gadgets.yml {player}'
+  NAME: '&a&lGadgets'
+  ID: 33
+  DATA-VALUE: 0
+  POSITION-X: 3
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+togglegadgets:
+  COMMAND: 'console: uc clear {player} gadget; console: execute {player} ~ ~ ~ /playsound random.click {player} ~ ~ ~ 1000000'
+  NAME: '&eToggle Gadgets'
+  ID: 351
+  DATA-VALUE: 8
+  POSITION-X: 3
+  POSITION-Y: 5
+  KEEP-OPEN: true
+  
+  
+specials:
+  COMMAND: 'console: execute {player} ~ ~ ~ /playsound random.wood_click {player} ~ ~ ~ 1000000'
+  NAME: '&c&lSpecials'
+  LORE:
+  - ''
+  - '&eComing Soon!'
+  ID: 399
+  DATA-VALUE: 0
+  POSITION-X: 7
+  POSITION-Y: 4
+  KEEP-OPEN: true
+  
+  
+togglespecials:
+  COMMAND: 'console: uc clear {player} gadget; console: execute {player} ~ ~ ~ /playsound random.wood_click {player} ~ ~ ~ 1000000'
+  NAME: '&cToggle Specials'
+  ID: 351
+  DATA-VALUE: 8
+  POSITION-X: 7
+  POSITION-Y: 5
+  KEEP-OPEN: true
